@@ -10,7 +10,7 @@ just run api_server.R
 you can test api on localhost/"api_address"
 
 
-##Docker seting with own plumber.R
+##Docker setting with own plumber.R
 #docker run --name "name" -p "port:port"-v `pwd`/plumber.R:/plumber.R #rstudio/plumber /plumber.R
 
 ex) docker run --name plumber_api -p 8000:8000 -v `pwd`/api_test.R:/plumber.R rstudio/plumber /plumber.R
